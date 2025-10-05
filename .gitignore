@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+journal.json
+config.yaml
+telegram/bot_config.py
