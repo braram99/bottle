@@ -1,0 +1,24 @@
+# Trading Risk Assistant - Dependencias
+
+# Core dependencies
+pyyaml>=6.0.1
+
+# Para futura integración con Telegram
+python-telegram-bot>=20.0  # Opcional: Solo si vas a usar Telegram
+
+# Para análisis y visualización (opcional)
+pandas>=2.0.0  # Para análisis de datos del journal
+matplotlib>=3.7.0  # Para gráficas del desempeño
+tabulate>=0.9.0  # Para tablas bonitas en CLI
+
+# Para exportar a Google Sheets (opcional - futuro)
+gspread>=5.10.0  # Para Google Sheets
+google-auth>=2.22.0  # Autenticación con Google
+
+# Para exportar a Notion (opcional - futuro)
+notion-client>=2.0.0  # Para Notion API
+
+# Development dependencies (opcional)
+pytest>=7.4.0  # Para tests
+black>=23.7.0  # Para formatear código
+pylint>=2.17.0  # Para linting
